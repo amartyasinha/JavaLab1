@@ -57,6 +57,7 @@ class Q1Complex{
                     System.out.print("The Multiplication of these two Complex numbers is ");
                     System.out.println(c1);
                 }
+                default -> throw new IllegalStateException("Unexpected value: " + choice);
             }
             System.out.println("Do you want to Return to Main Menu? Y/N");
             System.out.print("Choice: ");
